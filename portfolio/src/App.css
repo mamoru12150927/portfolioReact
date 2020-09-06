@@ -37,3 +37,20 @@
   background: none;
   color: #61dafb;
 }
+
+.portfolio-footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+}
+
+.portfolio-header-footer {
+  background-color: #20232a;
+  color: #ffffff;
+  margin-top: auto;
+}
+
+.portfolio-Contents-msg {
+  color: #ffffff;
+  white-space: pre-wrap;
+}
