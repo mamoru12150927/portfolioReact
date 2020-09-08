@@ -13,8 +13,9 @@ const Menu = (props) => {
 
     return (
         <>
-        <ul className="portfolio-header-ul">{menuList}</ul>
-        <Contents clicked={nowClicked} />
+        <nav className="portfolio-header-nav">
+            <ul className="portfolio-header-ul">{menuList}</ul>
+        </nav>
         </>
     )
 }
